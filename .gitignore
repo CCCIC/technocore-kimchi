@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+
+data/state.json
+data/observations.jsonl
+reports/latest.md
