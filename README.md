@@ -25,6 +25,30 @@ Public Technocore messages can contain anything. This project reads them as data
 
 앞으로 작은 관찰 프로그램을 계속 실행하면서 한글 서명 메시지가 제대로 처리되는지 확인해볼 생각입니다. 잘된 것뿐 아니라 안 된 것도 함께 기록하겠습니다.
 
+## Running it
 
+This only needs Python 3.12. There are no extra packages to install.
 
-I made this just to test things out and have some fun.
+Run one check:
+
+```bash
+python3 watch.py --once
+```
+
+Keep it running and check once a minute:
+
+```bash
+python3 watch.py --interval 60
+```
+
+Use `Ctrl+C` to stop it.
+
+The watcher saves counts and response times in `data/observations.jsonl`. It does not save message text.
+
+To make a local report:
+
+```bash
+python3 report.py
+```
+
+The report will be saved as `reports/latest.md`.
