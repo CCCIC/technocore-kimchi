@@ -52,3 +52,9 @@ python3 report.py
 ```
 
 The report will be saved as `reports/latest.md`.
+
+## tclk/1 한국어 안내서
+
+FLOP Labs가 공개한 `tclk/1` 코드를 Ubuntu 24.04에서 직접 빌드하고 테스트해봤습니다. 처음 읽으면서 헷갈렸던 내용을 한국어로 정리했습니다.
+
+- [tclk/1을 처음 보는 사람을 위한 안내서](docs/tclk1-ko.md)
