@@ -5,3 +5,4 @@ __pycache__/
 data/state.json
 data/observations.jsonl
 reports/latest.md
+report.py.backup-*
