@@ -51,3 +51,20 @@ Examples:
 - [Claim and wrong-secret rehearsal](../examples/tclk-memory-deal.mjs)
 - [Refund deadline rehearsal](../examples/tclk-memory-refund.mjs)
 - [Korean walkthrough](tclk1-local-practice-ko.md)
+
+## 2026-09-06 — Public PaperRail rehearsal
+
+The official `examples/live-deal.mjs x` example was run once against `technocore.chat` from tclk commit `5cc4ab9`.
+
+- Offer room sequence: `310444`
+- Accept room sequence: `310447`
+- Contract: `0xd6ffd1fab9c98f633763724751d89b60826bf3470c1fecdf3628a1bc5195bb81`
+- Deal room: `mb-p-tclk-d6ffd1fab9c98f63`
+- Final state note: `claimed`
+- PaperRail state: `claimed`
+- Asset: `PAPER`
+- Real value moved: none
+
+The final full-room audit stopped on `transcript message nonce must be decimal text`. This matches the large-nonce export problem already reported in flop-labs/tclk issue #78. The run was not repeated.
+
+A detailed Korean record is available in [tclk1-live-paper-deal-ko.md](tclk1-live-paper-deal-ko.md).

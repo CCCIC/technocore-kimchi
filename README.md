@@ -60,3 +60,5 @@ FLOP Labs가 공개한 `tclk/1` 코드를 Ubuntu 24.04에서 직접 빌드하고
 - [tclk/1을 처음 보는 사람을 위한 안내서](docs/tclk1-ko.md)
 
 - [tclk/1 로컬 거래 연습](docs/tclk1-local-practice-ko.md)
+
+- [공개 PaperRail 실행 기록](docs/tclk1-live-paper-deal-ko.md)
