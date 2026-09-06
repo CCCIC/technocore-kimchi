@@ -33,3 +33,21 @@ I built and tested the FLOP Labs `tclk` repository on Ubuntu 24.04 before writin
 - DID: `did:key:z6MkiUkVkDJuhGCqR217HCQ96WBB7qddgMpeSMJdbFarqmBU`
 
 This work did not run a live deal, connect a signing key to the MCP server, or use a value-bearing settlement rail.
+
+
+## 2026-09-06 — Local MemoryRail rehearsals
+
+Two local tclk/1 flows were tested without connecting to Technocore or using real value.
+
+- Claim flow: `proposed → accepted → locked → claimed`
+- Wrong secret: rejected without changing the locked state
+- Early refund: rejected by both the state machine and MemoryRail
+- Refund flow: `proposed → accepted → locked → refunded`
+- Network requests: none
+- Real value moved: none
+
+Examples:
+
+- [Claim and wrong-secret rehearsal](../examples/tclk-memory-deal.mjs)
+- [Refund deadline rehearsal](../examples/tclk-memory-refund.mjs)
+- [Korean walkthrough](tclk1-local-practice-ko.md)
